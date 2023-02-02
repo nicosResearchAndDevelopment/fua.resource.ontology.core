@@ -1,1 +1,1 @@
-# @nrd/fua.resource.ontology.rdf
+# @nrd/fua.resource.ontology.rdf-core
