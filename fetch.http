@@ -1,0 +1,71 @@
+### rdf
+GET http://www.w3.org/1999/02/22-rdf-syntax-ns#
+Accept: text/turtle
+
+### rdfs
+GET http://www.w3.org/2000/01/rdf-schema#
+Accept: text/turtle
+
+### owl
+GET http://www.w3.org/2002/07/owl#
+Accept: text/turtle
+
+### dc
+GET http://purl.org/dc/elements/1.1/
+Accept: text/turtle
+
+### dcam
+GET http://purl.org/dc/dcam/
+Accept: text/turtle
+
+### dcterms
+GET http://purl.org/dc/terms/
+Accept: text/turtle
+
+### skos
+GET http://www.w3.org/2004/02/skos/core#
+Accept: application/rdf+xml
+
+### xsd 1.0
+GET http://www.w3.org/2001/XMLSchema.xsd
+Accept: application/xml
+
+### xsd 1.1
+GET https://www.w3.org/2009/XMLSchema/XMLSchema.xsd
+Accept: application/xml
+
+### xml
+GET http://www.w3.org/2001/xml.xsd
+Accept: application/xml
+
+### grddl
+GET http://www.w3.org/2003/g/data-view#
+Accept: application/rdf+xml
+
+### hfp
+GET http://www.w3.org/2001/XMLSchema-hasFacetAndProperty.xsd
+Accept: application/xml
+
+### xhtml
+GET http://www.w3.org/1999/xhtml
+Accept: application/xml
+
+### xsi
+GET http://www.w3.org/2001/XMLSchema-instance
+Accept: application/xml
+
+### rddl-purposes
+GET http://www.rddl.org/purposes#
+Accept: application/rdf+xml
+
+### rddl
+GET http://www.rddl.org/
+Accept: application/rdf+xml
+
+### xlink
+GET http://www.w3.org/1999/xlink
+Accept: application/xml
+
+### foaf
+GET http://xmlns.com/foaf/spec/20140114.rdf
+Accept: application/rdf+xml

@@ -1,1 +1,94 @@
 # @nrd/fua.resource.ontology.rdf-core
+
+## Dependencies
+
+- `rdf`
+    - rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    - rdfs <http://www.w3.org/2000/01/rdf-schema#>
+    - owl <http://www.w3.org/2002/07/owl#>
+    - dc <http://purl.org/dc/elements/1.1/>
+- `rdfs`
+    - rdfs <http://www.w3.org/2000/01/rdf-schema#>
+    - rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    - owl <http://www.w3.org/2002/07/owl#>
+    - dc <http://purl.org/dc/elements/1.1/>
+- `owl`
+    - owl <http://www.w3.org/2002/07/owl#>
+    - rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    - rdfs <http://www.w3.org/2000/01/rdf-schema#>
+    - dc <http://purl.org/dc/elements/1.1/>
+    - grddl <http://www.w3.org/2003/g/data-view#>
+    - xml <http://www.w3.org/XML/1998/namespace>
+    - xsd <http://www.w3.org/2001/XMLSchema#>
+- `dc`
+    - dc <http://purl.org/dc/elements/1.1/>
+    - rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    - rdfs <http://www.w3.org/2000/01/rdf-schema#>
+    - owl <http://www.w3.org/2002/07/owl#>
+    - skos <http://www.w3.org/2004/02/skos/core#>
+    - dcam <http://purl.org/dc/dcam/>
+    - dcterms <http://purl.org/dc/terms/>
+- `dcam`
+    - dcam <http://purl.org/dc/dcam/>
+    - rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    - rdfs <http://www.w3.org/2000/01/rdf-schema#>
+    - owl <http://www.w3.org/2002/07/owl#>
+    - dcterms <http://purl.org/dc/terms/>
+    - skos <http://www.w3.org/2004/02/skos/core#>
+- `dcterms` `dct`
+    - dcterms <http://purl.org/dc/terms/>
+    - rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    - rdfs <http://www.w3.org/2000/01/rdf-schema#>
+    - owl <http://www.w3.org/2002/07/owl#>
+    - dcam <http://purl.org/dc/dcam/>
+    - skos <http://www.w3.org/2004/02/skos/core#>
+- `skos`
+    - xmlns:skos <http://www.w3.org/2004/02/skos/core#>
+    - xmlns:rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    - xmlns:rdfs <http://www.w3.org/2000/01/rdf-schema#>
+    - xmlns:owl <http://www.w3.org/2002/07/owl#>
+    - xmlns:dct <http://purl.org/dc/terms/>
+- `xsd` `xs`
+    - xmlns:xs: <http://www.w3.org/2001/XMLSchema#>
+    - xmlns:hfp: <http://www.w3.org/2001/XMLSchema-hasFacetAndProperty#>
+- `xml`
+    - xmlns <http://www.w3.org/1999/xhtml>
+    - xmlns:xs <http://www.w3.org/2001/XMLSchema>
+- `hfp`
+    - xmlns <http://www.w3.org/2001/XMLSchema>
+    - xmlns:hfp <http://www.w3.org/2001/XMLSchema-hasFacetAndProperty>
+    - xmlns:xhtml <http://www.w3.org/1999/xhtml>
+    - xmlns:xsi <http://www.w3.org/2001/XMLSchema-instance>
+    - xsi:schemaLocation <http://www.w3.org/1999/xhtml>
+- `xhtml`
+    - xmlns <http://www.w3.org/2001/XMLSchema>
+    - xmlns:data-view <http://www.w3.org/2003/g/data-view#>
+    - data-view:transformation <http://www.w3.org/2003/g/embeddedRDF.xsl>
+- `xsi`
+    - xmlns <http://www.w3.org/1999/xhtml>
+    - xmlns:xs <http://www.w3.org/2001/XMLSchema>
+- `grddl` `data-view`
+    - xmlns <http://www.rddl.org/purposes#>
+    - xmlns:admin <http://webns.net/mvcb/>
+    - xmlns:default73 <http://www.w3.org/2002/07/owl#>
+    - xmlns:default87 <http://www.w3.org/2000/01/rdf-schema#>
+    - xmlns:default90 <http://xmlns.com/foaf/0.1/>
+    - xmlns:default91 <http://usefulinc.com/ns/doap#>
+    - xmlns:default95 <http://purl.org/dc/elements/1.1/>
+    - xmlns:rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+- `rddl-purposes`
+    - xmlns <http://www.w3.org/1999/xhtml>
+    - xmlns:xlink <http://www.w3.org/1999/xlink>
+    - xmlns:rddl <http://www.rddl.org/>
+- `rddl`
+    - xmlns <http://www.w3.org/1999/xhtml>
+    - xmlns:xlink <http://www.w3.org/1999/xlink>
+    - xmlns:rddl <http://www.rddl.org/>
+- `xlink`
+    - xmlns:xs <http://www.w3.org/2001/XMLSchema>
+    - xmlns:xlink <http://www.w3.org/1999/xlink>
+
+TODO
+-> xmlns:admin <http://webns.net/mvcb/>
+-> xmlns:default90 <http://xmlns.com/foaf/0.1/>
+-> xmlns:default91 <http://usefulinc.com/ns/doap#>
