@@ -66,6 +66,62 @@ Accept: application/rdf+xml
 GET http://www.w3.org/1999/xlink
 Accept: application/xml
 
+### admin
+GET https://web.resource.org/rss/1.0/modules/admin/
+Accept: application/xml
+
 ### foaf
-GET http://xmlns.com/foaf/spec/20140114.rdf
+GET http://xmlns.com/foaf/0.1/
 Accept: application/rdf+xml
+
+### doap
+GET http://usefulinc.com/ns/doap#
+Accept: application/rdf+xml
+
+### vs
+GET http://www.w3.org/2003/06/sw-vocab-status/ns#
+Accept: application/rdf+xml
+
+### wot
+GET http://xmlns.com/wot/0.1/
+Accept: application/rdf+xml
+
+### vann
+GET https://vocab.org/vann/vann-vocab-20100607.rdf
+Accept: application/rdf+xml
+
+### wn20full
+GET http://www.w3.org/2006/03/wn/wn20/schemas/wnfull.rdfs
+Accept: application/rdf+xml
+
+### wn20basic
+GET http://www.w3.org/2006/03/wn/wn20/schemas/wnbasic.rdfs
+Accept: application/rdf+xml
+
+### wn20synset
+GET http://www.w3.org/2006/03/wn/wn20/rdf/wordnet-synset.rdf
+Accept: application/rdf+xml
+
+### wn20schema
+GET http://www.w3.org/2006/03/wn/wn20/schema/
+Accept: application/rdf+xml
+
+### wn20instances
+GET http://www.w3.org/2006/03/wn/wn20/instances/
+Accept: application/rdf+xml
+
+### cc
+GET https://web.resource.org/cc/schema.rdf
+Accept: application/rdf+xml
+
+### bio
+GET https://vocab.org/bio/schema.rdf
+Accept: application/rdf+xml
+
+### ov
+GET https://vocab.org/open/terms.rdf
+Accept: application/rdf+xml
+
+### label
+GET http://liveschema.eu/dataset/d7eee29f-7421-4e7e-b515-ef2f5a7c31f3/resource/355f81b1-fb7a-4dae-94ec-fa018ca7139f/download/lov_label.ttl
+Accept: text/turtle

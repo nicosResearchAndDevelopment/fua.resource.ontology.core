@@ -1,5 +1,35 @@
 # @nrd/fua.resource.ontology.rdf-core
 
+## Vocabularies
+
+- `rdf` <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+- `rdfs` <http://www.w3.org/2000/01/rdf-schema#>
+- `owl` <http://www.w3.org/2002/07/owl#>
+- `dc` <http://purl.org/dc/elements/1.1/>
+- `dcam` <http://purl.org/dc/dcam/>
+- `dct` <http://purl.org/dc/terms/>
+- `skos` <http://www.w3.org/2004/02/skos/core#>
+- `xsd` <http://www.w3.org/2001/XMLSchema#>
+- `xml` <http://www.w3.org/XML/1998/namespace>
+- `grddl` <http://www.w3.org/2003/g/data-view#>
+- `hfp` <http://www.w3.org/2001/XMLSchema-hasFacetAndProperty>
+- `xhtml` <http://www.w3.org/1999/xhtml>
+- `xlink` <http://www.w3.org/1999/xlink>
+- `xsi` <http://www.w3.org/2001/XMLSchema-instance>
+- `rddl` <http://www.rddl.org/>
+- `purposes` <http://www.rddl.org/purposes#>
+- `admin` <http://webns.net/mvcb/>
+- `foaf` <http://xmlns.com/foaf/0.1/>
+- `doap` <http://usefulinc.com/ns/doap#>
+- `vs` <http://www.w3.org/2003/06/sw-vocab-status/ns#>
+- `wot` <http://xmlns.com/wot/0.1/>
+- `vann` <http://purl.org/vocab/vann/>
+- `wn` <http://xmlns.com/wordnet/1.6/>
+- `cc` <http://web.resource.org/cc/>
+- `bio` <http://purl.org/vocab/bio/0.1/>
+- `ov` <http://open.vocab.org/terms/>
+- `label` <http://purl.org/net/vocab/2004/03/label#>
+
 ## Dependencies
 
 - `rdf`
@@ -49,8 +79,8 @@
     - xmlns:owl <http://www.w3.org/2002/07/owl#>
     - xmlns:dct <http://purl.org/dc/terms/>
 - `xsd` `xs`
-    - xmlns:xs: <http://www.w3.org/2001/XMLSchema#>
-    - xmlns:hfp: <http://www.w3.org/2001/XMLSchema-hasFacetAndProperty#>
+    - xmlns:xs <http://www.w3.org/2001/XMLSchema#>
+    - xmlns:hfp <http://www.w3.org/2001/XMLSchema-hasFacetAndProperty>
 - `xml`
     - xmlns <http://www.w3.org/1999/xhtml>
     - xmlns:xs <http://www.w3.org/2001/XMLSchema>
@@ -67,6 +97,7 @@
 - `xsi`
     - xmlns <http://www.w3.org/1999/xhtml>
     - xmlns:xs <http://www.w3.org/2001/XMLSchema>
+    - xmlns:rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 - `grddl` `data-view`
     - xmlns <http://www.rddl.org/purposes#>
     - xmlns:admin <http://webns.net/mvcb/>
@@ -76,7 +107,7 @@
     - xmlns:default91 <http://usefulinc.com/ns/doap#>
     - xmlns:default95 <http://purl.org/dc/elements/1.1/>
     - xmlns:rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-- `rddl-purposes`
+- `rddl-purposes` `purposes`
     - xmlns <http://www.w3.org/1999/xhtml>
     - xmlns:xlink <http://www.w3.org/1999/xlink>
     - xmlns:rddl <http://www.rddl.org/>
@@ -87,8 +118,95 @@
 - `xlink`
     - xmlns:xs <http://www.w3.org/2001/XMLSchema>
     - xmlns:xlink <http://www.w3.org/1999/xlink>
-
-TODO
--> xmlns:admin <http://webns.net/mvcb/>
--> xmlns:default90 <http://xmlns.com/foaf/0.1/>
--> xmlns:default91 <http://usefulinc.com/ns/doap#>
+- `admin`
+    - xmlns <http://www.w3.org/1999/xhtml>
+    - xmlns:xlink <http://www.w3.org/1999/xlink>
+    - xmlns:rddl <http://www.rddl.org/>
+    - xmlns <http://purl.org/rss/1.0/>
+    - xmlns:rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    - xmlns:admin <http://webns.net/mvcb/>
+- `foaf`
+    - xmlns:foaf <http://xmlns.com/foaf/0.1/>
+    - xmlns:rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    - xmlns:rdfs <http://www.w3.org/2000/01/rdf-schema#>
+    - xmlns:owl <http://www.w3.org/2002/07/owl#>
+    - xmlns:dc <http://purl.org/dc/elements/1.1/>
+    - xmlns:vs <http://www.w3.org/2003/06/sw-vocab-status/ns#>
+    - xmlns:wot <http://xmlns.com/wot/0.1/>
+- `doap`
+    - xmlns:doap <http://usefulinc.com/ns/doap#>
+    - xmlns:rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    - xmlns:rdfs <http://www.w3.org/2000/01/rdf-schema#>
+    - xmlns:owl <http://www.w3.org/2002/07/owl#>
+    - xmlns:dc <http://purl.org/dc/elements/1.1/>
+    - xmlns:vs <http://www.w3.org/2003/06/sw-vocab-status/ns#>
+    - xmlns:foaf <http://xmlns.com/foaf/0.1/>
+- `vs` `st`
+    - xmlns <http://www.w3.org/2003/06/sw-vocab-status/ns#>
+    - xmlns:vs <http://www.w3.org/2003/06/sw-vocab-status/ns#>
+    - xmlns:rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    - xmlns:rdfs <http://www.w3.org/2000/01/rdf-schema#>
+    - xmlns:owl <http://www.w3.org/2002/07/owl#>
+    - xmlns:dc <http://purl.org/dc/elements/1.1/>
+    - xmlns:foaf <http://xmlns.com/foaf/0.1/>
+    - xmlns:vann <http://purl.org/vocab/vann/>
+- `wot`
+    - xmlns <http://www.w3.org/1999/xhtml>
+    - xmlns:wot <http://xmlns.com/wot/0.1/>
+    - xmlns:rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    - xmlns:rdfs <http://www.w3.org/2000/01/rdf-schema#>
+    - xmlns:dc <http://purl.org/dc/elements/1.1/>
+    - xmlns:foaf <http://xmlns.com/foaf/0.1/>
+    - xmlns:wn <http://xmlns.com/wordnet/1.6/>
+- `vann`
+    - xmlns <http://www.w3.org/1999/xhtml>
+    - xmlns:vann <http://purl.org/vocab/vann/>
+    - xmlns:rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    - xmlns:rdfs <http://www.w3.org/2000/01/rdf-schema#>
+    - xmlns:owl <http://www.w3.org/2002/07/owl#>
+    - xmlns:dc <http://purl.org/dc/terms/>
+    - xmlns:dcterm <http://purl.org/dc/terms/>
+    - xmlns:foaf <http://xmlns.com/foaf/0.1/>
+    - xmlns:cc <http://web.resource.org/cc/>
+    - xmlns:bio <http://purl.org/vocab/bio/0.1/>
+- `wn` `wordnet`
+    - xmlns:rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    - xmlns:rdfs <http://www.w3.org/2000/01/rdf-schema#>
+    - xmlns:owl <http://www.w3.org/2002/07/owl#>
+    - xmlns:xsd <http://www.w3.org/2001/XMLSchema#>
+    - xmlns:wn20schema <http://www.w3.org/2006/03/wn/wn20/schema/>
+    - xmlns:wn20instances <http://www.w3.org/2006/03/wn/wn20/instances/>
+- `cc`
+    - xmlns <http://web.resource.org/cc/>
+    - xmlns:rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    - xmlns:rdfs <http://www.w3.org/2000/01/rdf-schema#>
+    - xmlns:dc <http://purl.org/dc/elements/1.1/>
+- `bio`
+    - xmlns:bio <http://purl.org/vocab/bio/0.1/>
+    - xmlns:rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    - xmlns:rdfs <http://www.w3.org/2000/01/rdf-schema#>
+    - xmlns:owl <http://www.w3.org/2002/07/owl#>
+    - xmlns:dc <http://purl.org/dc/terms/>
+    - xmlns:dct <http://purl.org/dc/terms/>
+    - xmlns:skos <http://www.w3.org/2004/02/skos/core#>
+    - xmlns:foaf <http://xmlns.com/foaf/0.1/>
+    - xmlns:vann <http://purl.org/vocab/vann/>
+    - xmlns:cc <http://web.resource.org/cc/>
+    - xmlns:st <http://www.w3.org/2003/06/sw-vocab-status/ns#>
+    - xmlns:ov <http://open.vocab.org/terms/>
+    - xmlns:label <http://purl.org/net/vocab/2004/03/label#>
+- `ov`
+    - xmlns:rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    - xmlns:dc <http://purl.org/dc/elements/1.1/>
+- `label`
+    - label <http://purl.org/net/vocab/2004/03/label#>
+    - rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    - rdfs <http://www.w3.org/2000/01/rdf-schema#>
+    - owl <http://www.w3.org/2002/07/owl#>
+    - dc <http://purl.org/dc/elements/1.1/>
+    - dcterms <http://purl.org/dc/terms/>
+    - xml <http://www.w3.org/XML/1998/namespace>
+    - xsd <http://www.w3.org/2001/XMLSchema#>
+    - foaf <http://xmlns.com/foaf/0.1/>
+    - vann <http://purl.org/vocab/vann/>
+    - cc <http://web.resource.org/cc/>
