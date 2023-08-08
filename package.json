@@ -1,0 +1,54 @@
+{
+  "name": "@nrd/fua.resource.ontology.core",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    ".": {
+      "require": "./src/load.js"
+    },
+    "./cc": {
+      "require": "./src/cc/load.js"
+    },
+    "./dc": {
+      "require": "./src/dc/load.js"
+    },
+    "./dct": {
+      "require": "./src/dct/load.js"
+    },
+    "./foaf": {
+      "require": "./src/foaf/load.js"
+    },
+    "./owl": {
+      "require": "./src/owl/load.js"
+    },
+    "./rdf": {
+      "require": "./src/rdf/load.js"
+    },
+    "./rdfs": {
+      "require": "./src/rdfs/load.js"
+    },
+    "./skos": {
+      "require": "./src/skos/load.js"
+    },
+    "./xsd": {
+      "require": "./src/xsd/load.js"
+    }
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "expect": "^26.6.2",
+    "node-fetch": "^2.6.2",
+    "@nrd/fua.core.util": "^1.0.0",
+    "@nrd/fua.module.rdf": "^1.0.0",
+    "@nrd/fua.module.persistence": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git02.int.nsc.ag:10022/research/fua/resource/ontology/core.git"
+  },
+  "author": "spetrac@nicos-ag.com",
+  "license": "UNLICENSED"
+}

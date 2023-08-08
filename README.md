@@ -1,4 +1,4 @@
-# @nrd/fua.resource.ontology.rdf-core
+# @nrd/fua.resource.ontology.core
 
 ## Vocabularies
 
