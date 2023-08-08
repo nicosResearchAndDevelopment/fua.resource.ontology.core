@@ -1,5 +1,18 @@
 # @nrd/fua.resource.ontology.core
 
+| Name                                                                       | Prefix          | Model                                                                                              | IRI                                         |
+|----------------------------------------------------------------------------|-----------------|----------------------------------------------------------------------------------------------------|---------------------------------------------|
+| [Creative Commons Rights Expression Language](data/cc/README.md)           | `cc`            | [`.ttl`](data/cc/cc_generated.ttl) [`.xml`](data/cc/cc.xml)                                        | http://creativecommons.org/ns#              |
+| [Dublin Core](data/dc/README.md)                                           | `dc`            | [`.ttl`](data/dc/dc.ttl) [`.xml`](data/dc/dc.xml)                                                  | http://purl.org/dc/elements/1.1/            |
+| [DC Terms](data/dct/README.md)                                             | `dct` `dcterms` | [`.ttl`](data/dct/dct.ttl) [`.xml`](data/dct/dct.xml)                                              | http://purl.org/dc/terms/                   |
+| [Friend of a Friend](data/foaf/README.md)                                  | `foaf`          | [`.ttl`](data/foaf/foaf_generated.ttl) [`.json`](data/foaf/foaf.json) [`.xml`](data/foaf/foaf.xml) | http://xmlns.com/foaf/0.1/                  |
+| [Web Ontology Language](data/owl/README.md)                                | `owl`           | [`.ttl`](data/owl/owl.ttl) [`.json`](data/owl/owl.json) [`.xml`](data/owl/owl.xml)                 | http://www.w3.org/2002/07/owl#              |
+| [Resource Description Framework](data/rdf/README.md)                       | `rdf`           | [`.ttl`](data/rdf/rdf.ttl) [`.json`](data/rdf/rdf.json) [`.xml`](data/rdf/rdf.xml)                 | http://www.w3.org/1999/02/22-rdf-syntax-ns# |
+| [RDF Schema](data/rdfs/README.md)                                          | `rdfs`          | [`.ttl`](data/rdfs/rdfs.ttl) [`.json`](data/rdfs/rdfs.json) [`.xml`](data/rdfs/rdfs.xml)           | http://www.w3.org/2000/01/rdf-schema#       |
+| [Simple Knowledge Organization System](data/skos/README.md)                | `skos`          | [`.ttl`](data/skos/skos_generated.ttl) [`.xml`](data/skos/skos.xml)                                | http://www.w3.org/2004/02/skos/core#        |
+| [A vocabulary for annotating vocabulary descriptions](data/vann/README.md) | `vann`          | [`.ttl`](data/vann/vann_generated.ttl) [`.xml`](data/vann/vann.xml)                                | http://purl.org/vocab/vann/                 |
+| [XML Schema Definition](data/xsd/README.md)                                | `xsd` `xs`      |                                                                                                    | http://www.w3.org/2001/XMLSchema#           |
+
 ## Vocabularies
 
 - `rdf` <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
