@@ -2,8 +2,8 @@ module.exports = {
     '@context':        'fua.load.rdf',
     'dct:identifier':  __filename,
     'dct:format':      'application/fua.load+js',
-    'dct:title':       'load.ontology',
-    'dct:alternative': '@nrd/fua.resource.ontology',
+    'dct:title':       'load',
+    'dct:alternative': '@nrd/fua.resource.ontology.core',
     'dct:requires':    [
         {
             'dct:identifier': './cc/load.js',
@@ -35,6 +35,10 @@ module.exports = {
         },
         {
             'dct:identifier': './skos/load.js',
+            'dct:format':     'application/fua.load+js'
+        },
+        {
+            'dct:identifier': './vann/load.js',
             'dct:format':     'application/fua.load+js'
         },
         {

@@ -30,6 +30,9 @@
     "./skos": {
       "require": "./src/skos/load.js"
     },
+    "./vann": {
+      "require": "./src/vann/load.js"
+    },
     "./xsd": {
       "require": "./src/xsd/load.js"
     }
